@@ -1,0 +1,21 @@
+{
+  "name": "attendance-system",
+  "version": "1.0.0",
+  "description": "A full-stack attendance system built with plain **HTML, CSS, and JavaScript** on the frontend, and a **pure Node.js** backend (no npm packages required — only built-in `http`, `fs`, `crypto` modules).",
+  "main": "seed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishantsingh9800/attendance-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishantsingh9800/attendance-system/issues"
+  },
+  "homepage": "https://github.com/nishantsingh9800/attendance-system#readme"
+}
