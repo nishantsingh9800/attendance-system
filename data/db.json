@@ -1,0 +1,4554 @@
+{
+  "faculty": [
+    {
+      "id": "f1",
+      "username": "faculty1",
+      "password": "pass123",
+      "name": "Dr. Sarah Johnson",
+      "department": "Computer Science"
+    },
+    {
+      "id": "f2",
+      "username": "faculty2",
+      "password": "pass123",
+      "name": "Prof. Michael Chen",
+      "department": "Mathematics"
+    },
+    {
+      "id": "f3",
+      "username": "faculty3",
+      "password": "pass123",
+      "name": "Dr. Emily Davis",
+      "department": "Physics"
+    },
+    {
+      "id": "f1783787281773",
+      "username": "nishant",
+      "password": "123456",
+      "name": "Nishant Singh",
+      "department": "Computer Science"
+    }
+  ],
+  "students": [
+    {
+      "id": "s1",
+      "username": "student1",
+      "password": "pass123",
+      "name": "Aarav Sharma",
+      "rollNo": "CS101",
+      "classIds": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c1783787320083",
+        "c1783787379082"
+      ]
+    },
+    {
+      "id": "s2",
+      "username": "student2",
+      "password": "pass123",
+      "name": "Diya Patel",
+      "rollNo": "CS102",
+      "classIds": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c1783787320083",
+        "c1783787379082"
+      ]
+    },
+    {
+      "id": "s3",
+      "username": "student3",
+      "password": "pass123",
+      "name": "Kabir Singh",
+      "rollNo": "CS103",
+      "classIds": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c1783787320083"
+      ]
+    },
+    {
+      "id": "s4",
+      "username": "student4",
+      "password": "pass123",
+      "name": "Ananya Gupta",
+      "rollNo": "CS104",
+      "classIds": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c1783787320083",
+        "c1783787379082"
+      ]
+    },
+    {
+      "id": "s5",
+      "username": "student5",
+      "password": "pass123",
+      "name": "Vihaan Reddy",
+      "rollNo": "CS105",
+      "classIds": [
+        "c1",
+        "c2",
+        "c4",
+        "c1783787320083",
+        "c1783787379082"
+      ]
+    },
+    {
+      "id": "s6",
+      "username": "student6",
+      "password": "pass123",
+      "name": "Ishita Kumar",
+      "rollNo": "CS106",
+      "classIds": [
+        "c1",
+        "c2",
+        "c4",
+        "c1783787320083",
+        "c1783787379082"
+      ]
+    },
+    {
+      "id": "s1783787239412",
+      "username": "anjali",
+      "password": "123456",
+      "name": "Anjali Singh",
+      "rollNo": "CS111",
+      "classIds": [
+        "c1",
+        "c2",
+        "c4",
+        "c1783787320083",
+        "c1783787379082"
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "id": "c1",
+      "name": "Data Structures",
+      "subject": "CS201",
+      "facultyId": "f1",
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "09:00-10:00"
+        },
+        {
+          "day": "Wednesday",
+          "time": "09:00-10:00"
+        },
+        {
+          "day": "Friday",
+          "time": "09:00-10:00"
+        }
+      ],
+      "studentIds": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s1783787239412"
+      ]
+    },
+    {
+      "id": "c2",
+      "name": "Discrete Mathematics",
+      "subject": "MA204",
+      "facultyId": "f2",
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "time": "10:15-11:15"
+        },
+        {
+          "day": "Thursday",
+          "time": "10:15-11:15"
+        }
+      ],
+      "studentIds": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s1783787239412"
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "Physics Lab",
+      "subject": "PH150",
+      "facultyId": "f3",
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "13:00-15:00"
+        }
+      ],
+      "studentIds": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "id": "c4",
+      "name": "Algorithms",
+      "subject": "CS301",
+      "facultyId": "f1",
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "time": "09:00-10:00"
+        },
+        {
+          "day": "Friday",
+          "time": "11:30-12:30"
+        }
+      ],
+      "studentIds": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s1783787239412"
+      ]
+    },
+    {
+      "id": "c1783787320083",
+      "name": "Operating Systems",
+      "subject": "CS305",
+      "facultyId": "f1783787281773",
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "09:00-10:00"
+        }
+      ],
+      "studentIds": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s1783787239412"
+      ]
+    },
+    {
+      "id": "c1783787379082",
+      "name": "Algorithms",
+      "subject": "CS301",
+      "facultyId": "f1783787281773",
+      "schedule": [
+        {
+          "day": "Monday",
+          "time": "10:00-11:00"
+        }
+      ],
+      "studentIds": [
+        "s1",
+        "s2",
+        "s4",
+        "s5",
+        "s6",
+        "s1783787239412"
+      ]
+    }
+  ],
+  "attendance": [
+    {
+      "id": "a1",
+      "classId": "c1",
+      "date": "2026-04-13",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a2",
+      "classId": "c1",
+      "date": "2026-04-13",
+      "studentId": "s2",
+      "status": "absent"
+    },
+    {
+      "id": "a3",
+      "classId": "c1",
+      "date": "2026-04-13",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a4",
+      "classId": "c1",
+      "date": "2026-04-13",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a5",
+      "classId": "c1",
+      "date": "2026-04-13",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a6",
+      "classId": "c1",
+      "date": "2026-04-13",
+      "studentId": "s6",
+      "status": "absent"
+    },
+    {
+      "id": "a7",
+      "classId": "c3",
+      "date": "2026-04-13",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a8",
+      "classId": "c3",
+      "date": "2026-04-13",
+      "studentId": "s2",
+      "status": "absent"
+    },
+    {
+      "id": "a9",
+      "classId": "c3",
+      "date": "2026-04-13",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a10",
+      "classId": "c3",
+      "date": "2026-04-13",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a11",
+      "classId": "c2",
+      "date": "2026-04-14",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a12",
+      "classId": "c2",
+      "date": "2026-04-14",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a13",
+      "classId": "c2",
+      "date": "2026-04-14",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a14",
+      "classId": "c2",
+      "date": "2026-04-14",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a15",
+      "classId": "c2",
+      "date": "2026-04-14",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a16",
+      "classId": "c2",
+      "date": "2026-04-14",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a17",
+      "classId": "c4",
+      "date": "2026-04-14",
+      "studentId": "s1",
+      "status": "absent"
+    },
+    {
+      "id": "a18",
+      "classId": "c4",
+      "date": "2026-04-14",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a19",
+      "classId": "c4",
+      "date": "2026-04-14",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a20",
+      "classId": "c4",
+      "date": "2026-04-14",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a21",
+      "classId": "c4",
+      "date": "2026-04-14",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a22",
+      "classId": "c4",
+      "date": "2026-04-14",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a23",
+      "classId": "c1",
+      "date": "2026-04-15",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a24",
+      "classId": "c1",
+      "date": "2026-04-15",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a25",
+      "classId": "c1",
+      "date": "2026-04-15",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a26",
+      "classId": "c1",
+      "date": "2026-04-15",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a27",
+      "classId": "c1",
+      "date": "2026-04-15",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a28",
+      "classId": "c1",
+      "date": "2026-04-15",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a29",
+      "classId": "c2",
+      "date": "2026-04-16",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a30",
+      "classId": "c2",
+      "date": "2026-04-16",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a31",
+      "classId": "c2",
+      "date": "2026-04-16",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a32",
+      "classId": "c2",
+      "date": "2026-04-16",
+      "studentId": "s4",
+      "status": "absent"
+    },
+    {
+      "id": "a33",
+      "classId": "c2",
+      "date": "2026-04-16",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a34",
+      "classId": "c2",
+      "date": "2026-04-16",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a35",
+      "classId": "c1",
+      "date": "2026-04-17",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a36",
+      "classId": "c1",
+      "date": "2026-04-17",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a37",
+      "classId": "c1",
+      "date": "2026-04-17",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a38",
+      "classId": "c1",
+      "date": "2026-04-17",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a39",
+      "classId": "c1",
+      "date": "2026-04-17",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a40",
+      "classId": "c1",
+      "date": "2026-04-17",
+      "studentId": "s6",
+      "status": "absent"
+    },
+    {
+      "id": "a41",
+      "classId": "c4",
+      "date": "2026-04-17",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a42",
+      "classId": "c4",
+      "date": "2026-04-17",
+      "studentId": "s2",
+      "status": "absent"
+    },
+    {
+      "id": "a43",
+      "classId": "c4",
+      "date": "2026-04-17",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a44",
+      "classId": "c4",
+      "date": "2026-04-17",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a45",
+      "classId": "c4",
+      "date": "2026-04-17",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a46",
+      "classId": "c4",
+      "date": "2026-04-17",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a47",
+      "classId": "c1",
+      "date": "2026-04-20",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a48",
+      "classId": "c1",
+      "date": "2026-04-20",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a49",
+      "classId": "c1",
+      "date": "2026-04-20",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a50",
+      "classId": "c1",
+      "date": "2026-04-20",
+      "studentId": "s4",
+      "status": "absent"
+    },
+    {
+      "id": "a51",
+      "classId": "c1",
+      "date": "2026-04-20",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a52",
+      "classId": "c1",
+      "date": "2026-04-20",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a53",
+      "classId": "c3",
+      "date": "2026-04-20",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a54",
+      "classId": "c3",
+      "date": "2026-04-20",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a55",
+      "classId": "c3",
+      "date": "2026-04-20",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a56",
+      "classId": "c3",
+      "date": "2026-04-20",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a57",
+      "classId": "c2",
+      "date": "2026-04-21",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a58",
+      "classId": "c2",
+      "date": "2026-04-21",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a59",
+      "classId": "c2",
+      "date": "2026-04-21",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a60",
+      "classId": "c2",
+      "date": "2026-04-21",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a61",
+      "classId": "c2",
+      "date": "2026-04-21",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a62",
+      "classId": "c2",
+      "date": "2026-04-21",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a63",
+      "classId": "c4",
+      "date": "2026-04-21",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a64",
+      "classId": "c4",
+      "date": "2026-04-21",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a65",
+      "classId": "c4",
+      "date": "2026-04-21",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a66",
+      "classId": "c4",
+      "date": "2026-04-21",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a67",
+      "classId": "c4",
+      "date": "2026-04-21",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a68",
+      "classId": "c4",
+      "date": "2026-04-21",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a69",
+      "classId": "c1",
+      "date": "2026-04-22",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a70",
+      "classId": "c1",
+      "date": "2026-04-22",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a71",
+      "classId": "c1",
+      "date": "2026-04-22",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a72",
+      "classId": "c1",
+      "date": "2026-04-22",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a73",
+      "classId": "c1",
+      "date": "2026-04-22",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a74",
+      "classId": "c1",
+      "date": "2026-04-22",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a75",
+      "classId": "c2",
+      "date": "2026-04-23",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a76",
+      "classId": "c2",
+      "date": "2026-04-23",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a77",
+      "classId": "c2",
+      "date": "2026-04-23",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a78",
+      "classId": "c2",
+      "date": "2026-04-23",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a79",
+      "classId": "c2",
+      "date": "2026-04-23",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a80",
+      "classId": "c2",
+      "date": "2026-04-23",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a81",
+      "classId": "c1",
+      "date": "2026-04-24",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a82",
+      "classId": "c1",
+      "date": "2026-04-24",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a83",
+      "classId": "c1",
+      "date": "2026-04-24",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a84",
+      "classId": "c1",
+      "date": "2026-04-24",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a85",
+      "classId": "c1",
+      "date": "2026-04-24",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a86",
+      "classId": "c1",
+      "date": "2026-04-24",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a87",
+      "classId": "c4",
+      "date": "2026-04-24",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a88",
+      "classId": "c4",
+      "date": "2026-04-24",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a89",
+      "classId": "c4",
+      "date": "2026-04-24",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a90",
+      "classId": "c4",
+      "date": "2026-04-24",
+      "studentId": "s4",
+      "status": "absent"
+    },
+    {
+      "id": "a91",
+      "classId": "c4",
+      "date": "2026-04-24",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a92",
+      "classId": "c4",
+      "date": "2026-04-24",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a93",
+      "classId": "c1",
+      "date": "2026-04-27",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a94",
+      "classId": "c1",
+      "date": "2026-04-27",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a95",
+      "classId": "c1",
+      "date": "2026-04-27",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a96",
+      "classId": "c1",
+      "date": "2026-04-27",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a97",
+      "classId": "c1",
+      "date": "2026-04-27",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a98",
+      "classId": "c1",
+      "date": "2026-04-27",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a99",
+      "classId": "c3",
+      "date": "2026-04-27",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a100",
+      "classId": "c3",
+      "date": "2026-04-27",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a101",
+      "classId": "c3",
+      "date": "2026-04-27",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a102",
+      "classId": "c3",
+      "date": "2026-04-27",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a103",
+      "classId": "c2",
+      "date": "2026-04-28",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a104",
+      "classId": "c2",
+      "date": "2026-04-28",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a105",
+      "classId": "c2",
+      "date": "2026-04-28",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a106",
+      "classId": "c2",
+      "date": "2026-04-28",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a107",
+      "classId": "c2",
+      "date": "2026-04-28",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a108",
+      "classId": "c2",
+      "date": "2026-04-28",
+      "studentId": "s6",
+      "status": "absent"
+    },
+    {
+      "id": "a109",
+      "classId": "c4",
+      "date": "2026-04-28",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a110",
+      "classId": "c4",
+      "date": "2026-04-28",
+      "studentId": "s2",
+      "status": "absent"
+    },
+    {
+      "id": "a111",
+      "classId": "c4",
+      "date": "2026-04-28",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a112",
+      "classId": "c4",
+      "date": "2026-04-28",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a113",
+      "classId": "c4",
+      "date": "2026-04-28",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a114",
+      "classId": "c4",
+      "date": "2026-04-28",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a115",
+      "classId": "c1",
+      "date": "2026-04-29",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a116",
+      "classId": "c1",
+      "date": "2026-04-29",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a117",
+      "classId": "c1",
+      "date": "2026-04-29",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a118",
+      "classId": "c1",
+      "date": "2026-04-29",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a119",
+      "classId": "c1",
+      "date": "2026-04-29",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a120",
+      "classId": "c1",
+      "date": "2026-04-29",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a121",
+      "classId": "c2",
+      "date": "2026-04-30",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a122",
+      "classId": "c2",
+      "date": "2026-04-30",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a123",
+      "classId": "c2",
+      "date": "2026-04-30",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a124",
+      "classId": "c2",
+      "date": "2026-04-30",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a125",
+      "classId": "c2",
+      "date": "2026-04-30",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a126",
+      "classId": "c2",
+      "date": "2026-04-30",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a127",
+      "classId": "c1",
+      "date": "2026-05-01",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a128",
+      "classId": "c1",
+      "date": "2026-05-01",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a129",
+      "classId": "c1",
+      "date": "2026-05-01",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a130",
+      "classId": "c1",
+      "date": "2026-05-01",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a131",
+      "classId": "c1",
+      "date": "2026-05-01",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a132",
+      "classId": "c1",
+      "date": "2026-05-01",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a133",
+      "classId": "c4",
+      "date": "2026-05-01",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a134",
+      "classId": "c4",
+      "date": "2026-05-01",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a135",
+      "classId": "c4",
+      "date": "2026-05-01",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a136",
+      "classId": "c4",
+      "date": "2026-05-01",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a137",
+      "classId": "c4",
+      "date": "2026-05-01",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a138",
+      "classId": "c4",
+      "date": "2026-05-01",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a139",
+      "classId": "c1",
+      "date": "2026-05-04",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a140",
+      "classId": "c1",
+      "date": "2026-05-04",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a141",
+      "classId": "c1",
+      "date": "2026-05-04",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a142",
+      "classId": "c1",
+      "date": "2026-05-04",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a143",
+      "classId": "c1",
+      "date": "2026-05-04",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a144",
+      "classId": "c1",
+      "date": "2026-05-04",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a145",
+      "classId": "c3",
+      "date": "2026-05-04",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a146",
+      "classId": "c3",
+      "date": "2026-05-04",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a147",
+      "classId": "c3",
+      "date": "2026-05-04",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a148",
+      "classId": "c3",
+      "date": "2026-05-04",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a149",
+      "classId": "c2",
+      "date": "2026-05-05",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a150",
+      "classId": "c2",
+      "date": "2026-05-05",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a151",
+      "classId": "c2",
+      "date": "2026-05-05",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a152",
+      "classId": "c2",
+      "date": "2026-05-05",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a153",
+      "classId": "c2",
+      "date": "2026-05-05",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a154",
+      "classId": "c2",
+      "date": "2026-05-05",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a155",
+      "classId": "c4",
+      "date": "2026-05-05",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a156",
+      "classId": "c4",
+      "date": "2026-05-05",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a157",
+      "classId": "c4",
+      "date": "2026-05-05",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a158",
+      "classId": "c4",
+      "date": "2026-05-05",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a159",
+      "classId": "c4",
+      "date": "2026-05-05",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a160",
+      "classId": "c4",
+      "date": "2026-05-05",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a161",
+      "classId": "c1",
+      "date": "2026-05-06",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a162",
+      "classId": "c1",
+      "date": "2026-05-06",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a163",
+      "classId": "c1",
+      "date": "2026-05-06",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a164",
+      "classId": "c1",
+      "date": "2026-05-06",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a165",
+      "classId": "c1",
+      "date": "2026-05-06",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a166",
+      "classId": "c1",
+      "date": "2026-05-06",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a167",
+      "classId": "c2",
+      "date": "2026-05-07",
+      "studentId": "s1",
+      "status": "absent"
+    },
+    {
+      "id": "a168",
+      "classId": "c2",
+      "date": "2026-05-07",
+      "studentId": "s2",
+      "status": "absent"
+    },
+    {
+      "id": "a169",
+      "classId": "c2",
+      "date": "2026-05-07",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a170",
+      "classId": "c2",
+      "date": "2026-05-07",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a171",
+      "classId": "c2",
+      "date": "2026-05-07",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a172",
+      "classId": "c2",
+      "date": "2026-05-07",
+      "studentId": "s6",
+      "status": "absent"
+    },
+    {
+      "id": "a173",
+      "classId": "c1",
+      "date": "2026-05-08",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a174",
+      "classId": "c1",
+      "date": "2026-05-08",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a175",
+      "classId": "c1",
+      "date": "2026-05-08",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a176",
+      "classId": "c1",
+      "date": "2026-05-08",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a177",
+      "classId": "c1",
+      "date": "2026-05-08",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a178",
+      "classId": "c1",
+      "date": "2026-05-08",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a179",
+      "classId": "c4",
+      "date": "2026-05-08",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a180",
+      "classId": "c4",
+      "date": "2026-05-08",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a181",
+      "classId": "c4",
+      "date": "2026-05-08",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a182",
+      "classId": "c4",
+      "date": "2026-05-08",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a183",
+      "classId": "c4",
+      "date": "2026-05-08",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a184",
+      "classId": "c4",
+      "date": "2026-05-08",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a185",
+      "classId": "c1",
+      "date": "2026-05-11",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a186",
+      "classId": "c1",
+      "date": "2026-05-11",
+      "studentId": "s2",
+      "status": "absent"
+    },
+    {
+      "id": "a187",
+      "classId": "c1",
+      "date": "2026-05-11",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a188",
+      "classId": "c1",
+      "date": "2026-05-11",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a189",
+      "classId": "c1",
+      "date": "2026-05-11",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a190",
+      "classId": "c1",
+      "date": "2026-05-11",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a191",
+      "classId": "c3",
+      "date": "2026-05-11",
+      "studentId": "s1",
+      "status": "absent"
+    },
+    {
+      "id": "a192",
+      "classId": "c3",
+      "date": "2026-05-11",
+      "studentId": "s2",
+      "status": "absent"
+    },
+    {
+      "id": "a193",
+      "classId": "c3",
+      "date": "2026-05-11",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a194",
+      "classId": "c3",
+      "date": "2026-05-11",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a195",
+      "classId": "c2",
+      "date": "2026-05-12",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a196",
+      "classId": "c2",
+      "date": "2026-05-12",
+      "studentId": "s2",
+      "status": "absent"
+    },
+    {
+      "id": "a197",
+      "classId": "c2",
+      "date": "2026-05-12",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a198",
+      "classId": "c2",
+      "date": "2026-05-12",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a199",
+      "classId": "c2",
+      "date": "2026-05-12",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a200",
+      "classId": "c2",
+      "date": "2026-05-12",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a201",
+      "classId": "c4",
+      "date": "2026-05-12",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a202",
+      "classId": "c4",
+      "date": "2026-05-12",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a203",
+      "classId": "c4",
+      "date": "2026-05-12",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a204",
+      "classId": "c4",
+      "date": "2026-05-12",
+      "studentId": "s4",
+      "status": "absent"
+    },
+    {
+      "id": "a205",
+      "classId": "c4",
+      "date": "2026-05-12",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a206",
+      "classId": "c4",
+      "date": "2026-05-12",
+      "studentId": "s6",
+      "status": "absent"
+    },
+    {
+      "id": "a207",
+      "classId": "c1",
+      "date": "2026-05-13",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a208",
+      "classId": "c1",
+      "date": "2026-05-13",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a209",
+      "classId": "c1",
+      "date": "2026-05-13",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a210",
+      "classId": "c1",
+      "date": "2026-05-13",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a211",
+      "classId": "c1",
+      "date": "2026-05-13",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a212",
+      "classId": "c1",
+      "date": "2026-05-13",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a213",
+      "classId": "c2",
+      "date": "2026-05-14",
+      "studentId": "s1",
+      "status": "absent"
+    },
+    {
+      "id": "a214",
+      "classId": "c2",
+      "date": "2026-05-14",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a215",
+      "classId": "c2",
+      "date": "2026-05-14",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a216",
+      "classId": "c2",
+      "date": "2026-05-14",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a217",
+      "classId": "c2",
+      "date": "2026-05-14",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a218",
+      "classId": "c2",
+      "date": "2026-05-14",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a219",
+      "classId": "c1",
+      "date": "2026-05-15",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a220",
+      "classId": "c1",
+      "date": "2026-05-15",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a221",
+      "classId": "c1",
+      "date": "2026-05-15",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a222",
+      "classId": "c1",
+      "date": "2026-05-15",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a223",
+      "classId": "c1",
+      "date": "2026-05-15",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a224",
+      "classId": "c1",
+      "date": "2026-05-15",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a225",
+      "classId": "c4",
+      "date": "2026-05-15",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a226",
+      "classId": "c4",
+      "date": "2026-05-15",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a227",
+      "classId": "c4",
+      "date": "2026-05-15",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a228",
+      "classId": "c4",
+      "date": "2026-05-15",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a229",
+      "classId": "c4",
+      "date": "2026-05-15",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a230",
+      "classId": "c4",
+      "date": "2026-05-15",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a231",
+      "classId": "c1",
+      "date": "2026-05-18",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a232",
+      "classId": "c1",
+      "date": "2026-05-18",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a233",
+      "classId": "c1",
+      "date": "2026-05-18",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a234",
+      "classId": "c1",
+      "date": "2026-05-18",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a235",
+      "classId": "c1",
+      "date": "2026-05-18",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a236",
+      "classId": "c1",
+      "date": "2026-05-18",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a237",
+      "classId": "c3",
+      "date": "2026-05-18",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a238",
+      "classId": "c3",
+      "date": "2026-05-18",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a239",
+      "classId": "c3",
+      "date": "2026-05-18",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a240",
+      "classId": "c3",
+      "date": "2026-05-18",
+      "studentId": "s4",
+      "status": "absent"
+    },
+    {
+      "id": "a241",
+      "classId": "c2",
+      "date": "2026-05-19",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a242",
+      "classId": "c2",
+      "date": "2026-05-19",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a243",
+      "classId": "c2",
+      "date": "2026-05-19",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a244",
+      "classId": "c2",
+      "date": "2026-05-19",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a245",
+      "classId": "c2",
+      "date": "2026-05-19",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a246",
+      "classId": "c2",
+      "date": "2026-05-19",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a247",
+      "classId": "c4",
+      "date": "2026-05-19",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a248",
+      "classId": "c4",
+      "date": "2026-05-19",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a249",
+      "classId": "c4",
+      "date": "2026-05-19",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a250",
+      "classId": "c4",
+      "date": "2026-05-19",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a251",
+      "classId": "c4",
+      "date": "2026-05-19",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a252",
+      "classId": "c4",
+      "date": "2026-05-19",
+      "studentId": "s6",
+      "status": "absent"
+    },
+    {
+      "id": "a253",
+      "classId": "c1",
+      "date": "2026-05-20",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a254",
+      "classId": "c1",
+      "date": "2026-05-20",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a255",
+      "classId": "c1",
+      "date": "2026-05-20",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a256",
+      "classId": "c1",
+      "date": "2026-05-20",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a257",
+      "classId": "c1",
+      "date": "2026-05-20",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a258",
+      "classId": "c1",
+      "date": "2026-05-20",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a259",
+      "classId": "c2",
+      "date": "2026-05-21",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a260",
+      "classId": "c2",
+      "date": "2026-05-21",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a261",
+      "classId": "c2",
+      "date": "2026-05-21",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a262",
+      "classId": "c2",
+      "date": "2026-05-21",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a263",
+      "classId": "c2",
+      "date": "2026-05-21",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a264",
+      "classId": "c2",
+      "date": "2026-05-21",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a265",
+      "classId": "c1",
+      "date": "2026-05-22",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a266",
+      "classId": "c1",
+      "date": "2026-05-22",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a267",
+      "classId": "c1",
+      "date": "2026-05-22",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a268",
+      "classId": "c1",
+      "date": "2026-05-22",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a269",
+      "classId": "c1",
+      "date": "2026-05-22",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a270",
+      "classId": "c1",
+      "date": "2026-05-22",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a271",
+      "classId": "c4",
+      "date": "2026-05-22",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a272",
+      "classId": "c4",
+      "date": "2026-05-22",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a273",
+      "classId": "c4",
+      "date": "2026-05-22",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a274",
+      "classId": "c4",
+      "date": "2026-05-22",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a275",
+      "classId": "c4",
+      "date": "2026-05-22",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a276",
+      "classId": "c4",
+      "date": "2026-05-22",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a277",
+      "classId": "c1",
+      "date": "2026-05-25",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a278",
+      "classId": "c1",
+      "date": "2026-05-25",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a279",
+      "classId": "c1",
+      "date": "2026-05-25",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a280",
+      "classId": "c1",
+      "date": "2026-05-25",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a281",
+      "classId": "c1",
+      "date": "2026-05-25",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a282",
+      "classId": "c1",
+      "date": "2026-05-25",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a283",
+      "classId": "c3",
+      "date": "2026-05-25",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a284",
+      "classId": "c3",
+      "date": "2026-05-25",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a285",
+      "classId": "c3",
+      "date": "2026-05-25",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a286",
+      "classId": "c3",
+      "date": "2026-05-25",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a287",
+      "classId": "c2",
+      "date": "2026-05-26",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a288",
+      "classId": "c2",
+      "date": "2026-05-26",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a289",
+      "classId": "c2",
+      "date": "2026-05-26",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a290",
+      "classId": "c2",
+      "date": "2026-05-26",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a291",
+      "classId": "c2",
+      "date": "2026-05-26",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a292",
+      "classId": "c2",
+      "date": "2026-05-26",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a293",
+      "classId": "c4",
+      "date": "2026-05-26",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a294",
+      "classId": "c4",
+      "date": "2026-05-26",
+      "studentId": "s2",
+      "status": "absent"
+    },
+    {
+      "id": "a295",
+      "classId": "c4",
+      "date": "2026-05-26",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a296",
+      "classId": "c4",
+      "date": "2026-05-26",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a297",
+      "classId": "c4",
+      "date": "2026-05-26",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a298",
+      "classId": "c4",
+      "date": "2026-05-26",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a299",
+      "classId": "c1",
+      "date": "2026-05-27",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a300",
+      "classId": "c1",
+      "date": "2026-05-27",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a301",
+      "classId": "c1",
+      "date": "2026-05-27",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a302",
+      "classId": "c1",
+      "date": "2026-05-27",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a303",
+      "classId": "c1",
+      "date": "2026-05-27",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a304",
+      "classId": "c1",
+      "date": "2026-05-27",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a305",
+      "classId": "c2",
+      "date": "2026-05-28",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a306",
+      "classId": "c2",
+      "date": "2026-05-28",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a307",
+      "classId": "c2",
+      "date": "2026-05-28",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a308",
+      "classId": "c2",
+      "date": "2026-05-28",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a309",
+      "classId": "c2",
+      "date": "2026-05-28",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a310",
+      "classId": "c2",
+      "date": "2026-05-28",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a311",
+      "classId": "c1",
+      "date": "2026-05-29",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a312",
+      "classId": "c1",
+      "date": "2026-05-29",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a313",
+      "classId": "c1",
+      "date": "2026-05-29",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a314",
+      "classId": "c1",
+      "date": "2026-05-29",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a315",
+      "classId": "c1",
+      "date": "2026-05-29",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a316",
+      "classId": "c1",
+      "date": "2026-05-29",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a317",
+      "classId": "c4",
+      "date": "2026-05-29",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a318",
+      "classId": "c4",
+      "date": "2026-05-29",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a319",
+      "classId": "c4",
+      "date": "2026-05-29",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a320",
+      "classId": "c4",
+      "date": "2026-05-29",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a321",
+      "classId": "c4",
+      "date": "2026-05-29",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a322",
+      "classId": "c4",
+      "date": "2026-05-29",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a323",
+      "classId": "c1",
+      "date": "2026-06-01",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a324",
+      "classId": "c1",
+      "date": "2026-06-01",
+      "studentId": "s2",
+      "status": "absent"
+    },
+    {
+      "id": "a325",
+      "classId": "c1",
+      "date": "2026-06-01",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a326",
+      "classId": "c1",
+      "date": "2026-06-01",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a327",
+      "classId": "c1",
+      "date": "2026-06-01",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a328",
+      "classId": "c1",
+      "date": "2026-06-01",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a329",
+      "classId": "c3",
+      "date": "2026-06-01",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a330",
+      "classId": "c3",
+      "date": "2026-06-01",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a331",
+      "classId": "c3",
+      "date": "2026-06-01",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a332",
+      "classId": "c3",
+      "date": "2026-06-01",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a333",
+      "classId": "c2",
+      "date": "2026-06-02",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a334",
+      "classId": "c2",
+      "date": "2026-06-02",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a335",
+      "classId": "c2",
+      "date": "2026-06-02",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a336",
+      "classId": "c2",
+      "date": "2026-06-02",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a337",
+      "classId": "c2",
+      "date": "2026-06-02",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a338",
+      "classId": "c2",
+      "date": "2026-06-02",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a339",
+      "classId": "c4",
+      "date": "2026-06-02",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a340",
+      "classId": "c4",
+      "date": "2026-06-02",
+      "studentId": "s2",
+      "status": "absent"
+    },
+    {
+      "id": "a341",
+      "classId": "c4",
+      "date": "2026-06-02",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a342",
+      "classId": "c4",
+      "date": "2026-06-02",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a343",
+      "classId": "c4",
+      "date": "2026-06-02",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a344",
+      "classId": "c4",
+      "date": "2026-06-02",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a345",
+      "classId": "c1",
+      "date": "2026-06-03",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a346",
+      "classId": "c1",
+      "date": "2026-06-03",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a347",
+      "classId": "c1",
+      "date": "2026-06-03",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a348",
+      "classId": "c1",
+      "date": "2026-06-03",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a349",
+      "classId": "c1",
+      "date": "2026-06-03",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a350",
+      "classId": "c1",
+      "date": "2026-06-03",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a351",
+      "classId": "c2",
+      "date": "2026-06-04",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a352",
+      "classId": "c2",
+      "date": "2026-06-04",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a353",
+      "classId": "c2",
+      "date": "2026-06-04",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a354",
+      "classId": "c2",
+      "date": "2026-06-04",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a355",
+      "classId": "c2",
+      "date": "2026-06-04",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a356",
+      "classId": "c2",
+      "date": "2026-06-04",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a357",
+      "classId": "c1",
+      "date": "2026-06-05",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a358",
+      "classId": "c1",
+      "date": "2026-06-05",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a359",
+      "classId": "c1",
+      "date": "2026-06-05",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a360",
+      "classId": "c1",
+      "date": "2026-06-05",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a361",
+      "classId": "c1",
+      "date": "2026-06-05",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a362",
+      "classId": "c1",
+      "date": "2026-06-05",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a363",
+      "classId": "c4",
+      "date": "2026-06-05",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a364",
+      "classId": "c4",
+      "date": "2026-06-05",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a365",
+      "classId": "c4",
+      "date": "2026-06-05",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a366",
+      "classId": "c4",
+      "date": "2026-06-05",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a367",
+      "classId": "c4",
+      "date": "2026-06-05",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a368",
+      "classId": "c4",
+      "date": "2026-06-05",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a369",
+      "classId": "c1",
+      "date": "2026-06-08",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a370",
+      "classId": "c1",
+      "date": "2026-06-08",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a371",
+      "classId": "c1",
+      "date": "2026-06-08",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a372",
+      "classId": "c1",
+      "date": "2026-06-08",
+      "studentId": "s4",
+      "status": "absent"
+    },
+    {
+      "id": "a373",
+      "classId": "c1",
+      "date": "2026-06-08",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a374",
+      "classId": "c1",
+      "date": "2026-06-08",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a375",
+      "classId": "c3",
+      "date": "2026-06-08",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a376",
+      "classId": "c3",
+      "date": "2026-06-08",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a377",
+      "classId": "c3",
+      "date": "2026-06-08",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a378",
+      "classId": "c3",
+      "date": "2026-06-08",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a379",
+      "classId": "c2",
+      "date": "2026-06-09",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a380",
+      "classId": "c2",
+      "date": "2026-06-09",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a381",
+      "classId": "c2",
+      "date": "2026-06-09",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a382",
+      "classId": "c2",
+      "date": "2026-06-09",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a383",
+      "classId": "c2",
+      "date": "2026-06-09",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a384",
+      "classId": "c2",
+      "date": "2026-06-09",
+      "studentId": "s6",
+      "status": "absent"
+    },
+    {
+      "id": "a385",
+      "classId": "c4",
+      "date": "2026-06-09",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a386",
+      "classId": "c4",
+      "date": "2026-06-09",
+      "studentId": "s2",
+      "status": "absent"
+    },
+    {
+      "id": "a387",
+      "classId": "c4",
+      "date": "2026-06-09",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a388",
+      "classId": "c4",
+      "date": "2026-06-09",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a389",
+      "classId": "c4",
+      "date": "2026-06-09",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a390",
+      "classId": "c4",
+      "date": "2026-06-09",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a391",
+      "classId": "c1",
+      "date": "2026-06-10",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a392",
+      "classId": "c1",
+      "date": "2026-06-10",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a393",
+      "classId": "c1",
+      "date": "2026-06-10",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a394",
+      "classId": "c1",
+      "date": "2026-06-10",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a395",
+      "classId": "c1",
+      "date": "2026-06-10",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a396",
+      "classId": "c1",
+      "date": "2026-06-10",
+      "studentId": "s6",
+      "status": "absent"
+    },
+    {
+      "id": "a397",
+      "classId": "c2",
+      "date": "2026-06-11",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a398",
+      "classId": "c2",
+      "date": "2026-06-11",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a399",
+      "classId": "c2",
+      "date": "2026-06-11",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a400",
+      "classId": "c2",
+      "date": "2026-06-11",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a401",
+      "classId": "c2",
+      "date": "2026-06-11",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a402",
+      "classId": "c2",
+      "date": "2026-06-11",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a403",
+      "classId": "c1",
+      "date": "2026-06-12",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a404",
+      "classId": "c1",
+      "date": "2026-06-12",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a405",
+      "classId": "c1",
+      "date": "2026-06-12",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a406",
+      "classId": "c1",
+      "date": "2026-06-12",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a407",
+      "classId": "c1",
+      "date": "2026-06-12",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a408",
+      "classId": "c1",
+      "date": "2026-06-12",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a409",
+      "classId": "c4",
+      "date": "2026-06-12",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a410",
+      "classId": "c4",
+      "date": "2026-06-12",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a411",
+      "classId": "c4",
+      "date": "2026-06-12",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a412",
+      "classId": "c4",
+      "date": "2026-06-12",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a413",
+      "classId": "c4",
+      "date": "2026-06-12",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a414",
+      "classId": "c4",
+      "date": "2026-06-12",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a415",
+      "classId": "c1",
+      "date": "2026-06-15",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a416",
+      "classId": "c1",
+      "date": "2026-06-15",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a417",
+      "classId": "c1",
+      "date": "2026-06-15",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a418",
+      "classId": "c1",
+      "date": "2026-06-15",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a419",
+      "classId": "c1",
+      "date": "2026-06-15",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a420",
+      "classId": "c1",
+      "date": "2026-06-15",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a421",
+      "classId": "c3",
+      "date": "2026-06-15",
+      "studentId": "s1",
+      "status": "absent"
+    },
+    {
+      "id": "a422",
+      "classId": "c3",
+      "date": "2026-06-15",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a423",
+      "classId": "c3",
+      "date": "2026-06-15",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a424",
+      "classId": "c3",
+      "date": "2026-06-15",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a425",
+      "classId": "c2",
+      "date": "2026-06-16",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a426",
+      "classId": "c2",
+      "date": "2026-06-16",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a427",
+      "classId": "c2",
+      "date": "2026-06-16",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a428",
+      "classId": "c2",
+      "date": "2026-06-16",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a429",
+      "classId": "c2",
+      "date": "2026-06-16",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a430",
+      "classId": "c2",
+      "date": "2026-06-16",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a431",
+      "classId": "c4",
+      "date": "2026-06-16",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a432",
+      "classId": "c4",
+      "date": "2026-06-16",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a433",
+      "classId": "c4",
+      "date": "2026-06-16",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a434",
+      "classId": "c4",
+      "date": "2026-06-16",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a435",
+      "classId": "c4",
+      "date": "2026-06-16",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a436",
+      "classId": "c4",
+      "date": "2026-06-16",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a437",
+      "classId": "c1",
+      "date": "2026-06-17",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a438",
+      "classId": "c1",
+      "date": "2026-06-17",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a439",
+      "classId": "c1",
+      "date": "2026-06-17",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a440",
+      "classId": "c1",
+      "date": "2026-06-17",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a441",
+      "classId": "c1",
+      "date": "2026-06-17",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a442",
+      "classId": "c1",
+      "date": "2026-06-17",
+      "studentId": "s6",
+      "status": "absent"
+    },
+    {
+      "id": "a443",
+      "classId": "c2",
+      "date": "2026-06-18",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a444",
+      "classId": "c2",
+      "date": "2026-06-18",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a445",
+      "classId": "c2",
+      "date": "2026-06-18",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a446",
+      "classId": "c2",
+      "date": "2026-06-18",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a447",
+      "classId": "c2",
+      "date": "2026-06-18",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a448",
+      "classId": "c2",
+      "date": "2026-06-18",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a449",
+      "classId": "c1",
+      "date": "2026-06-19",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a450",
+      "classId": "c1",
+      "date": "2026-06-19",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a451",
+      "classId": "c1",
+      "date": "2026-06-19",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a452",
+      "classId": "c1",
+      "date": "2026-06-19",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a453",
+      "classId": "c1",
+      "date": "2026-06-19",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a454",
+      "classId": "c1",
+      "date": "2026-06-19",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a455",
+      "classId": "c4",
+      "date": "2026-06-19",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a456",
+      "classId": "c4",
+      "date": "2026-06-19",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a457",
+      "classId": "c4",
+      "date": "2026-06-19",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a458",
+      "classId": "c4",
+      "date": "2026-06-19",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a459",
+      "classId": "c4",
+      "date": "2026-06-19",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a460",
+      "classId": "c4",
+      "date": "2026-06-19",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a461",
+      "classId": "c1",
+      "date": "2026-06-22",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a462",
+      "classId": "c1",
+      "date": "2026-06-22",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a463",
+      "classId": "c1",
+      "date": "2026-06-22",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a464",
+      "classId": "c1",
+      "date": "2026-06-22",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a465",
+      "classId": "c1",
+      "date": "2026-06-22",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a466",
+      "classId": "c1",
+      "date": "2026-06-22",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a467",
+      "classId": "c3",
+      "date": "2026-06-22",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a468",
+      "classId": "c3",
+      "date": "2026-06-22",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a469",
+      "classId": "c3",
+      "date": "2026-06-22",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a470",
+      "classId": "c3",
+      "date": "2026-06-22",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a471",
+      "classId": "c2",
+      "date": "2026-06-23",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a472",
+      "classId": "c2",
+      "date": "2026-06-23",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a473",
+      "classId": "c2",
+      "date": "2026-06-23",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a474",
+      "classId": "c2",
+      "date": "2026-06-23",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a475",
+      "classId": "c2",
+      "date": "2026-06-23",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a476",
+      "classId": "c2",
+      "date": "2026-06-23",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a477",
+      "classId": "c4",
+      "date": "2026-06-23",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a478",
+      "classId": "c4",
+      "date": "2026-06-23",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a479",
+      "classId": "c4",
+      "date": "2026-06-23",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a480",
+      "classId": "c4",
+      "date": "2026-06-23",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a481",
+      "classId": "c4",
+      "date": "2026-06-23",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a482",
+      "classId": "c4",
+      "date": "2026-06-23",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a483",
+      "classId": "c1",
+      "date": "2026-06-24",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a484",
+      "classId": "c1",
+      "date": "2026-06-24",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a485",
+      "classId": "c1",
+      "date": "2026-06-24",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a486",
+      "classId": "c1",
+      "date": "2026-06-24",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a487",
+      "classId": "c1",
+      "date": "2026-06-24",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a488",
+      "classId": "c1",
+      "date": "2026-06-24",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a489",
+      "classId": "c2",
+      "date": "2026-06-25",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a490",
+      "classId": "c2",
+      "date": "2026-06-25",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a491",
+      "classId": "c2",
+      "date": "2026-06-25",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a492",
+      "classId": "c2",
+      "date": "2026-06-25",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a493",
+      "classId": "c2",
+      "date": "2026-06-25",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a494",
+      "classId": "c2",
+      "date": "2026-06-25",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a495",
+      "classId": "c1",
+      "date": "2026-06-26",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a496",
+      "classId": "c1",
+      "date": "2026-06-26",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a497",
+      "classId": "c1",
+      "date": "2026-06-26",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a498",
+      "classId": "c1",
+      "date": "2026-06-26",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a499",
+      "classId": "c1",
+      "date": "2026-06-26",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a500",
+      "classId": "c1",
+      "date": "2026-06-26",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a501",
+      "classId": "c4",
+      "date": "2026-06-26",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a502",
+      "classId": "c4",
+      "date": "2026-06-26",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a503",
+      "classId": "c4",
+      "date": "2026-06-26",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a504",
+      "classId": "c4",
+      "date": "2026-06-26",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a505",
+      "classId": "c4",
+      "date": "2026-06-26",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a506",
+      "classId": "c4",
+      "date": "2026-06-26",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a507",
+      "classId": "c1",
+      "date": "2026-06-29",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a508",
+      "classId": "c1",
+      "date": "2026-06-29",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a509",
+      "classId": "c1",
+      "date": "2026-06-29",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a510",
+      "classId": "c1",
+      "date": "2026-06-29",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a511",
+      "classId": "c1",
+      "date": "2026-06-29",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a512",
+      "classId": "c1",
+      "date": "2026-06-29",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a513",
+      "classId": "c3",
+      "date": "2026-06-29",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a514",
+      "classId": "c3",
+      "date": "2026-06-29",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a515",
+      "classId": "c3",
+      "date": "2026-06-29",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a516",
+      "classId": "c3",
+      "date": "2026-06-29",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a517",
+      "classId": "c2",
+      "date": "2026-06-30",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a518",
+      "classId": "c2",
+      "date": "2026-06-30",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a519",
+      "classId": "c2",
+      "date": "2026-06-30",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a520",
+      "classId": "c2",
+      "date": "2026-06-30",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a521",
+      "classId": "c2",
+      "date": "2026-06-30",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a522",
+      "classId": "c2",
+      "date": "2026-06-30",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a523",
+      "classId": "c4",
+      "date": "2026-06-30",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a524",
+      "classId": "c4",
+      "date": "2026-06-30",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a525",
+      "classId": "c4",
+      "date": "2026-06-30",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a526",
+      "classId": "c4",
+      "date": "2026-06-30",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a527",
+      "classId": "c4",
+      "date": "2026-06-30",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a528",
+      "classId": "c4",
+      "date": "2026-06-30",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a529",
+      "classId": "c1",
+      "date": "2026-07-01",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a530",
+      "classId": "c1",
+      "date": "2026-07-01",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a531",
+      "classId": "c1",
+      "date": "2026-07-01",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a532",
+      "classId": "c1",
+      "date": "2026-07-01",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a533",
+      "classId": "c1",
+      "date": "2026-07-01",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a534",
+      "classId": "c1",
+      "date": "2026-07-01",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a535",
+      "classId": "c2",
+      "date": "2026-07-02",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a536",
+      "classId": "c2",
+      "date": "2026-07-02",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a537",
+      "classId": "c2",
+      "date": "2026-07-02",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a538",
+      "classId": "c2",
+      "date": "2026-07-02",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a539",
+      "classId": "c2",
+      "date": "2026-07-02",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a540",
+      "classId": "c2",
+      "date": "2026-07-02",
+      "studentId": "s6",
+      "status": "absent"
+    },
+    {
+      "id": "a541",
+      "classId": "c1",
+      "date": "2026-07-03",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a542",
+      "classId": "c1",
+      "date": "2026-07-03",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a543",
+      "classId": "c1",
+      "date": "2026-07-03",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a544",
+      "classId": "c1",
+      "date": "2026-07-03",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a545",
+      "classId": "c1",
+      "date": "2026-07-03",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a546",
+      "classId": "c1",
+      "date": "2026-07-03",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a547",
+      "classId": "c4",
+      "date": "2026-07-03",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a548",
+      "classId": "c4",
+      "date": "2026-07-03",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a549",
+      "classId": "c4",
+      "date": "2026-07-03",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a550",
+      "classId": "c4",
+      "date": "2026-07-03",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a551",
+      "classId": "c4",
+      "date": "2026-07-03",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a552",
+      "classId": "c4",
+      "date": "2026-07-03",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a553",
+      "classId": "c1",
+      "date": "2026-07-06",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a554",
+      "classId": "c1",
+      "date": "2026-07-06",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a555",
+      "classId": "c1",
+      "date": "2026-07-06",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a556",
+      "classId": "c1",
+      "date": "2026-07-06",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a557",
+      "classId": "c1",
+      "date": "2026-07-06",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a558",
+      "classId": "c1",
+      "date": "2026-07-06",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a559",
+      "classId": "c3",
+      "date": "2026-07-06",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a560",
+      "classId": "c3",
+      "date": "2026-07-06",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a561",
+      "classId": "c3",
+      "date": "2026-07-06",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a562",
+      "classId": "c3",
+      "date": "2026-07-06",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a563",
+      "classId": "c2",
+      "date": "2026-07-07",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a564",
+      "classId": "c2",
+      "date": "2026-07-07",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a565",
+      "classId": "c2",
+      "date": "2026-07-07",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a566",
+      "classId": "c2",
+      "date": "2026-07-07",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a567",
+      "classId": "c2",
+      "date": "2026-07-07",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a568",
+      "classId": "c2",
+      "date": "2026-07-07",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a569",
+      "classId": "c4",
+      "date": "2026-07-07",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a570",
+      "classId": "c4",
+      "date": "2026-07-07",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a571",
+      "classId": "c4",
+      "date": "2026-07-07",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a572",
+      "classId": "c4",
+      "date": "2026-07-07",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a573",
+      "classId": "c4",
+      "date": "2026-07-07",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a574",
+      "classId": "c4",
+      "date": "2026-07-07",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a575",
+      "classId": "c1",
+      "date": "2026-07-08",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a576",
+      "classId": "c1",
+      "date": "2026-07-08",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a577",
+      "classId": "c1",
+      "date": "2026-07-08",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a578",
+      "classId": "c1",
+      "date": "2026-07-08",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a579",
+      "classId": "c1",
+      "date": "2026-07-08",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a580",
+      "classId": "c1",
+      "date": "2026-07-08",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a581",
+      "classId": "c2",
+      "date": "2026-07-09",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a582",
+      "classId": "c2",
+      "date": "2026-07-09",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a583",
+      "classId": "c2",
+      "date": "2026-07-09",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a584",
+      "classId": "c2",
+      "date": "2026-07-09",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a585",
+      "classId": "c2",
+      "date": "2026-07-09",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a586",
+      "classId": "c2",
+      "date": "2026-07-09",
+      "studentId": "s6",
+      "status": "absent"
+    },
+    {
+      "id": "a587",
+      "classId": "c1",
+      "date": "2026-07-10",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a588",
+      "classId": "c1",
+      "date": "2026-07-10",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a589",
+      "classId": "c1",
+      "date": "2026-07-10",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a590",
+      "classId": "c1",
+      "date": "2026-07-10",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a591",
+      "classId": "c1",
+      "date": "2026-07-10",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a592",
+      "classId": "c1",
+      "date": "2026-07-10",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a593",
+      "classId": "c4",
+      "date": "2026-07-10",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a594",
+      "classId": "c4",
+      "date": "2026-07-10",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a595",
+      "classId": "c4",
+      "date": "2026-07-10",
+      "studentId": "s3",
+      "status": "absent"
+    },
+    {
+      "id": "a596",
+      "classId": "c4",
+      "date": "2026-07-10",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a597",
+      "classId": "c4",
+      "date": "2026-07-10",
+      "studentId": "s5",
+      "status": "absent"
+    },
+    {
+      "id": "a598",
+      "classId": "c4",
+      "date": "2026-07-10",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a1783787350095395",
+      "classId": "c1783787320083",
+      "date": "2026-07-11",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a1783787350095605",
+      "classId": "c1783787320083",
+      "date": "2026-07-11",
+      "studentId": "s2",
+      "status": "present"
+    },
+    {
+      "id": "a1783787350095111",
+      "classId": "c1783787320083",
+      "date": "2026-07-11",
+      "studentId": "s3",
+      "status": "present"
+    },
+    {
+      "id": "a1783787350095405",
+      "classId": "c1783787320083",
+      "date": "2026-07-11",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a1783787350095813",
+      "classId": "c1783787320083",
+      "date": "2026-07-11",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a1783787350096648",
+      "classId": "c1783787320083",
+      "date": "2026-07-11",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a1783787350096139",
+      "classId": "c1783787320083",
+      "date": "2026-07-11",
+      "studentId": "s1783787239412",
+      "status": "present"
+    },
+    {
+      "id": "a1783787397589819",
+      "classId": "c1783787379082",
+      "date": "2026-07-11",
+      "studentId": "s1",
+      "status": "present"
+    },
+    {
+      "id": "a1783787397589351",
+      "classId": "c1783787379082",
+      "date": "2026-07-11",
+      "studentId": "s2",
+      "status": "absent"
+    },
+    {
+      "id": "a1783787397589752",
+      "classId": "c1783787379082",
+      "date": "2026-07-11",
+      "studentId": "s4",
+      "status": "present"
+    },
+    {
+      "id": "a178378739758933",
+      "classId": "c1783787379082",
+      "date": "2026-07-11",
+      "studentId": "s5",
+      "status": "present"
+    },
+    {
+      "id": "a1783787397589705",
+      "classId": "c1783787379082",
+      "date": "2026-07-11",
+      "studentId": "s6",
+      "status": "present"
+    },
+    {
+      "id": "a1783787397589373",
+      "classId": "c1783787379082",
+      "date": "2026-07-11",
+      "studentId": "s1783787239412",
+      "status": "present"
+    }
+  ]
+}

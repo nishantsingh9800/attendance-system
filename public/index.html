@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduTrack — Attendance Management System</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- ======================= LOGIN SCREEN ======================= -->
+<div id="login-screen" class="screen login-screen">
+  <div class="login-wrap">
+    <div class="login-brand">
+      <div class="brand-mark">ET</div>
+      <h1>EduTrack</h1>
+      <p>Student Attendance Management System</p>
+    </div>
+
+    <div class="login-card">
+      <div class="role-tabs">
+        <button class="role-tab active" data-role="student">Student</button>
+        <button class="role-tab" data-role="faculty">Faculty</button>
+      </div>
+
+      <form id="login-form">
+        <div class="field">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="e.g. student1" autocomplete="username" required>
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="••••••••" autocomplete="current-password" required>
+        </div>
+        <div id="login-error" class="login-error hidden"></div>
+        <button type="submit" class="btn btn-primary btn-block" id="login-submit">Sign In</button>
+      </form>
+
+      <!-- <div class="demo-hint">
+        <strong>Demo credentials</strong>
+        <span id="demo-cred">student1 / pass123</span>
+      </div> -->
+
+      <div class="auth-switch">
+        <span>New here?</span>
+        <button type="button" class="link-btn" id="show-signup">Create an account</button>
+      </div>
+    </div>
+
+    <!-- SIGN UP CARD (hidden until "Create an account" is clicked) -->
+    <div class="login-card hidden" id="signup-card">
+      <div class="role-tabs">
+        <button class="role-tab active" data-role="student" id="signup-tab-student">Student</button>
+        <button class="role-tab" data-role="faculty" id="signup-tab-faculty">Faculty</button>
+      </div>
+
+      <form id="signup-form">
+        <div class="field">
+          <label for="signup-name">Full Name</label>
+          <input type="text" id="signup-name" placeholder="e.g. Priya Verma" required>
+        </div>
+        <div class="field">
+          <label for="signup-username">Username</label>
+          <input type="text" id="signup-username" placeholder="Choose a username" autocomplete="username" required>
+        </div>
+        <div class="field">
+          <label for="signup-password">Password</label>
+          <input type="password" id="signup-password" placeholder="At least 4 characters" autocomplete="new-password" required>
+        </div>
+
+        <!-- Student-only fields -->
+        <div id="signup-student-fields">
+          <div class="field">
+            <label for="signup-rollno">Roll Number</label>
+            <input type="text" id="signup-rollno" placeholder="e.g. CS107">
+          </div>
+          <div class="field">
+            <label>Enroll in Classes</label>
+            <div id="signup-class-list" class="signup-class-list">
+              <div class="empty-note">Loading classes...</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Faculty-only fields -->
+        <div id="signup-faculty-fields" class="hidden">
+          <div class="field">
+            <label for="signup-department">Department</label>
+            <input type="text" id="signup-department" placeholder="e.g. Computer Science">
+          </div>
+        </div>
+
+        <div id="signup-error" class="login-error hidden"></div>
+        <button type="submit" class="btn btn-primary btn-block" id="signup-submit">Create Account</button>
+      </form>
+
+      <div class="auth-switch">
+        <span>Already have an account?</span>
+        <button type="button" class="link-btn" id="show-login">Back to sign in</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================= STUDENT APP ======================= -->
+<div id="student-app" class="screen app-screen hidden">
+  <aside class="sidebar">
+    <div class="sidebar-brand"><div class="brand-mark">ET</div><span>EduTrack</span></div>
+    <nav class="sidebar-nav">
+      <button class="nav-item active" data-view="overview">📊 Overview</button>
+      <button class="nav-item" data-view="attendance">🗓️ Attendance History</button>
+      <button class="nav-item" data-view="schedule">📚 My Classes</button>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="user-chip">
+        <div class="avatar" id="student-avatar">S</div>
+        <div>
+          <div class="user-name" id="student-name">—</div>
+          <div class="user-sub" id="student-roll">—</div>
+        </div>
+      </div>
+      <button class="btn btn-ghost btn-block" id="student-logout">Log out</button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <button class="mobile-menu-btn" id="student-menu-btn">☰</button>
+      <h2 id="student-view-title">Overview</h2>
+      <div class="topbar-date" id="student-date"></div>
+    </header>
+
+    <!-- OVERVIEW VIEW -->
+    <section class="view active" data-view="overview" id="student-overview">
+      <div class="stat-grid">
+        <div class="stat-card" data-period="daily">
+          <div class="stat-label">Today</div>
+          <div class="ring-wrap"><svg class="ring" viewBox="0 0 120 120"></svg><div class="ring-value">—</div></div>
+          <div class="stat-sub"></div>
+        </div>
+        <div class="stat-card" data-period="weekly">
+          <div class="stat-label">This Week</div>
+          <div class="ring-wrap"><svg class="ring" viewBox="0 0 120 120"></svg><div class="ring-value">—</div></div>
+          <div class="stat-sub"></div>
+        </div>
+        <div class="stat-card" data-period="monthly">
+          <div class="stat-label">This Month</div>
+          <div class="ring-wrap"><svg class="ring" viewBox="0 0 120 120"></svg><div class="ring-value">—</div></div>
+          <div class="stat-sub"></div>
+        </div>
+        <div class="stat-card" data-period="yearly">
+          <div class="stat-label">This Year</div>
+          <div class="ring-wrap"><svg class="ring" viewBox="0 0 120 120"></svg><div class="ring-value">—</div></div>
+          <div class="stat-sub"></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-header"><h3>Today's Classes</h3></div>
+        <div id="todays-classes" class="todays-classes"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-header"><h3>Attendance by Subject</h3></div>
+        <div id="per-class-list" class="per-class-list"></div>
+      </div>
+    </section>
+
+    <!-- ATTENDANCE HISTORY VIEW -->
+    <section class="view" data-view="attendance" id="student-attendance">
+      <div class="panel">
+        <div class="panel-header row-between">
+          <h3>Attendance History</h3>
+          <div class="period-toggle">
+            <button class="period-btn active" data-period="daily">Daily</button>
+            <button class="period-btn" data-period="weekly">Weekly</button>
+            <button class="period-btn" data-period="monthly">Monthly</button>
+            <button class="period-btn" data-period="yearly">Yearly</button>
+          </div>
+        </div>
+        <div class="history-summary" id="history-summary"></div>
+        <table class="table" id="history-table">
+          <thead><tr><th>Date</th><th>Subject</th><th>Class</th><th>Status</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <div class="empty-state hidden" id="history-empty">No attendance records for this period.</div>
+      </div>
+    </section>
+
+    <!-- SCHEDULE / CLASSES VIEW -->
+    <section class="view" data-view="schedule" id="student-schedule">
+      <div class="panel">
+        <div class="panel-header"><h3>Weekly Timetable</h3></div>
+        <div id="week-schedule" class="week-schedule"></div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- ======================= FACULTY APP ======================= -->
+<div id="faculty-app" class="screen app-screen hidden">
+  <aside class="sidebar">
+    <div class="sidebar-brand"><div class="brand-mark">ET</div><span>EduTrack</span></div>
+    <nav class="sidebar-nav">
+      <button class="nav-item active" data-view="fclasses">📋 My Classes</button>
+      <button class="nav-item" data-view="fcreate">➕ Create Class</button>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="user-chip">
+        <div class="avatar" id="faculty-avatar">F</div>
+        <div>
+          <div class="user-name" id="faculty-name">—</div>
+          <div class="user-sub" id="faculty-dept">—</div>
+        </div>
+      </div>
+      <button class="btn btn-ghost btn-block" id="faculty-logout">Log out</button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <button class="mobile-menu-btn" id="faculty-menu-btn">☰</button>
+      <h2 id="faculty-view-title">My Classes</h2>
+      <div class="topbar-date" id="faculty-date"></div>
+    </header>
+
+    <section class="view active" data-view="fclasses" id="faculty-classes-view">
+      <div class="class-grid" id="faculty-class-grid"></div>
+    </section>
+
+    <section class="view" data-view="fcreate" id="faculty-create-view">
+      <div class="panel" style="max-width:560px;">
+        <div class="panel-header"><h3>Schedule a New Class</h3></div>
+        <form id="create-class-form">
+          <div class="field">
+            <label for="cc-name">Class Name</label>
+            <input type="text" id="cc-name" placeholder="e.g. Operating Systems" required>
+          </div>
+          <div class="field">
+            <label for="cc-subject">Subject Code</label>
+            <input type="text" id="cc-subject" placeholder="e.g. CS305" required>
+          </div>
+
+          <div class="field">
+            <label>Weekly Schedule</label>
+            <div id="cc-schedule-rows" class="schedule-rows"></div>
+            <button type="button" class="btn btn-sm btn-outline" id="cc-add-slot" style="margin-top:8px;">+ Add Time Slot</button>
+          </div>
+
+          <div class="field">
+            <label>Enroll Students <span class="opt-sub">(optional — can be changed later)</span></label>
+            <div id="cc-student-list" class="signup-class-list">
+              <div class="empty-note">Loading students...</div>
+            </div>
+          </div>
+
+          <div id="cc-error" class="login-error hidden"></div>
+          <button type="submit" class="btn btn-primary btn-block" id="cc-submit">Create Class</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- ======================= MARK ATTENDANCE MODAL ======================= -->
+<div id="attendance-modal" class="modal-overlay hidden">
+  <div class="modal">
+    <div class="modal-header">
+      <div>
+        <h3 id="modal-class-name">Class Name</h3>
+        <p id="modal-class-sub" class="modal-sub">Subject</p>
+      </div>
+      <button class="modal-close" id="modal-close-btn">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-toolbar">
+        <label class="modal-date-label">Date:
+          <input type="date" id="modal-date-input">
+        </label>
+        <div class="bulk-actions">
+          <button class="btn btn-sm btn-outline" id="mark-all-present">Mark All Present</button>
+          <button class="btn btn-sm btn-outline" id="mark-all-absent">Mark All Absent</button>
+        </div>
+      </div>
+      <div id="modal-roster" class="roster-list"></div>
+    </div>
+    <div class="modal-footer">
+      <div id="modal-save-msg" class="save-msg"></div>
+      <button class="btn btn-primary" id="save-attendance-btn">Save Attendance</button>
+    </div>
+  </div>
+</div>
+
+<!-- ======================= MANAGE STUDENTS MODAL ======================= -->
+<div id="students-modal" class="modal-overlay hidden">
+  <div class="modal">
+    <div class="modal-header">
+      <div>
+        <h3 id="students-modal-class-name">Class Name</h3>
+        <p id="students-modal-class-sub" class="modal-sub">Subject</p>
+      </div>
+      <button class="modal-close" id="students-modal-close-btn">✕</button>
+    </div>
+    <div class="modal-body">
+      <p class="modal-hint">Check a student to enroll them in this class, uncheck to remove. Attendance % shown is for this class only.</p>
+      <div id="students-modal-list" class="roster-list"></div>
+    </div>
+    <div class="modal-footer">
+      <div id="students-modal-msg" class="save-msg"></div>
+      <button class="btn btn-primary" id="save-roster-btn">Save Changes</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast hidden"></div>
+
+<script src="/js/app.js"></script>
+</body>
+</html>
